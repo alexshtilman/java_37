@@ -2,7 +2,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import telran.view.*;
@@ -58,7 +57,7 @@ public class MiniCalcAppl {
 	}
 
 	private static void joinString(InputOutput ioP) {
-		List<String> roles = new ArrayList<String>(3);
+		List<String> roles = new ArrayList<>(3);
 		roles.add("front-end");
 		roles.add("back-end");
 		roles.add("full-stack");
